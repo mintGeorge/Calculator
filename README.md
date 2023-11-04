@@ -1,7 +1,7 @@
 # Calculator
  A simple calculator involving [+-/*] operators.
 
-# Download
+## Download
  Download the file here ~
   [Calculator](https://github.com/MoriMoeMoe/Calculator/raw/main/Calculator.exe)
 
