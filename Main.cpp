@@ -6,15 +6,19 @@ int main(){
     double y;
     char op;
 
-    std::cout << "Calculator\n";
+    
+    
+    while(true){
+
+        std::cout << "Calculator\n";
     std::cout << "Enter first digit : ";
     std::cin >> x;
     std::cout << "Enter second digit : ";
     std::cin >> y;
     std::cout << "Enter the operation (+,-,*,/) : ";
     std::cin >> op;
-    
 
+        
     switch(op){
 
         case '+':
@@ -34,9 +38,18 @@ int main(){
         break;
 
         default: 
-        std::cout << "Not a valid response.";
+        std::cout << "Not a valid response. Please try again!\n";
 
     }
+    std::cout << "\nIf you want to quit, press q or press any other character.\n";
+        std::cin >> op;
+        if(op == 'q'){
+            break;
+        }
+
+        }
+
+    
 
     
 
