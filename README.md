@@ -1,4 +1,4 @@
-# Calculator
+# Simple Calculator
  A simple calculator involving [+-/*] operators.
 
 ## Download
